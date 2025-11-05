@@ -7,6 +7,7 @@ import 'package:flutter_bloc_main/UI_View/Counter_UI.dart';
 import 'package:flutter_bloc_main/ommon_loader_bloc.dart/cmn_loader_bloc.dart';
 
 void main() {
+  //sdad
   runApp(
     MultiBlocProvider(
       providers: [
