@@ -26,6 +26,7 @@ jobs:
           channel: 'stable'
           architecture: x64
 
+      - name: FlutterBloc
       - run: flutter build apk --release --split-per-abi
       - run: |
           flutter build ios --no-codesign
